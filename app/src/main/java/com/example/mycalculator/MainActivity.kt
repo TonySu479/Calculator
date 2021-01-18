@@ -24,6 +24,8 @@ class MainActivity : AppCompatActivity() {
 
     fun onClear(view: View){
         tvInput.text = ""
+        lastNumeric = false
+        lastDot = false
     }
 
     fun onDecimalPoint(view: View){
